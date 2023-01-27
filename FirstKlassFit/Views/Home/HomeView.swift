@@ -28,7 +28,7 @@ struct HomeView: View {
                 .foregroundColor(.baseGreyText)
         }
         .frame(maxWidth: .infinity, alignment: .topLeading)
-        .padding(.bottom, 31)
+        .padding([.bottom, .top], 31)
     }
     
     private var todayWorkoutPlan: some View {
