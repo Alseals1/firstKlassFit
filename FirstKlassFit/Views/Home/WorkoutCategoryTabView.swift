@@ -37,7 +37,9 @@ struct WorkoutCategoryTabView: View {
                         .frame(height: 28)
                     }
                 }
+                .background(Color.baseTabBackground)
                 .clipShape(Capsule())
+                
                 .frame(height: 28)
             
             switch selectedTab {

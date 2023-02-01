@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C60F1747298971C200F7D0B7 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60F1746298971C200F7D0B7 /* UserProfileView.swift */; };
 		C69955162981F62F00AFD68F /* FirstKlassFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955152981F62F00AFD68F /* FirstKlassFitApp.swift */; };
 		C69955182981F62F00AFD68F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955172981F62F00AFD68F /* ContentView.swift */; };
 		C699551A2981F63100AFD68F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69955192981F63100AFD68F /* Assets.xcassets */; };
@@ -20,6 +21,8 @@
 		C69955352982D0D700AFD68F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955342982D0D700AFD68F /* MainView.swift */; };
 		C69955372982D15900AFD68F /* DatePill.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955362982D15900AFD68F /* DatePill.swift */; };
 		C69955392982D2A300AFD68F /* SmallArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955382982D2A300AFD68F /* SmallArrowButton.swift */; };
+		C6C52A262989FD70004F0F3F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C52A252989FD70004F0F3F /* NotificationView.swift */; };
+		C6C52A29298A080C004F0F3F /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C52A28298A080C004F0F3F /* Notification.swift */; };
 		C6E85DFD29831D08002C984A /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E85DFC29831D08002C984A /* ProgressCircle.swift */; };
 		C6E85DFF29834982002C984A /* FinishedWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E85DFE29834982002C984A /* FinishedWorkout.swift */; };
 		C6E85E01298349B4002C984A /* CheckButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E85E00298349B4002C984A /* CheckButton.swift */; };
@@ -28,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C60F1746298971C200F7D0B7 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		C69955122981F62F00AFD68F /* FirstKlassFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstKlassFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69955152981F62F00AFD68F /* FirstKlassFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstKlassFitApp.swift; sourceTree = "<group>"; };
 		C69955172981F62F00AFD68F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		C69955342982D0D700AFD68F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C69955362982D15900AFD68F /* DatePill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePill.swift; sourceTree = "<group>"; };
 		C69955382982D2A300AFD68F /* SmallArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallArrowButton.swift; sourceTree = "<group>"; };
+		C6C52A252989FD70004F0F3F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		C6C52A28298A080C004F0F3F /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		C6E85DFC29831D08002C984A /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
 		C6E85DFE29834982002C984A /* FinishedWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedWorkout.swift; sourceTree = "<group>"; };
 		C6E85E00298349B4002C984A /* CheckButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckButton.swift; sourceTree = "<group>"; };
@@ -60,6 +66,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C60F1745298971A600F7D0B7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C60F1746298971C200F7D0B7 /* UserProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C60F174A2989F89800F7D0B7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C69955342982D0D700AFD68F /* MainView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		C69955092981F62F00AFD68F = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +101,8 @@
 		C69955142981F62F00AFD68F /* FirstKlassFit */ = {
 			isa = PBXGroup;
 			children = (
+				C6C52A27298A07F7004F0F3F /* Model */,
+				C60F174A2989F89800F7D0B7 /* App */,
 				C699552D2982BFB100AFD68F /* Components */,
 				C699552C2982BFA200AFD68F /* Utils */,
 				C699552B2982BF8F00AFD68F /* Views */,
@@ -100,10 +124,11 @@
 		C699552B2982BF8F00AFD68F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C60F1745298971A600F7D0B7 /* Profile */,
 				C6EE68B92982ECA700DE22E3 /* Home */,
 				C6EE68BA2982ECCA00DE22E3 /* Statistics */,
+				C6C52A242989FD55004F0F3F /* Notification */,
 				C69955172981F62F00AFD68F /* ContentView.swift */,
-				C69955342982D0D700AFD68F /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -128,6 +153,22 @@
 				C6E85E00298349B4002C984A /* CheckButton.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		C6C52A242989FD55004F0F3F /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				C6C52A252989FD70004F0F3F /* NotificationView.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		C6C52A27298A07F7004F0F3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6C52A28298A080C004F0F3F /* Notification.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		C6EE68B92982ECA700DE22E3 /* Home */ = {
@@ -229,12 +270,15 @@
 				C6EE68C02982EE5800DE22E3 /* RoundedCorner.swift in Sources */,
 				C69955182981F62F00AFD68F /* ContentView.swift in Sources */,
 				C69955372982D15900AFD68F /* DatePill.swift in Sources */,
+				C60F1747298971C200F7D0B7 /* UserProfileView.swift in Sources */,
 				C69955392982D2A300AFD68F /* SmallArrowButton.swift in Sources */,
+				C6C52A29298A080C004F0F3F /* Notification.swift in Sources */,
 				C69955162981F62F00AFD68F /* FirstKlassFitApp.swift in Sources */,
 				C699552629822E9B00AFD68F /* Color+Extension.swift in Sources */,
 				C699552F2982C07B00AFD68F /* WorkoutCardLarge.swift in Sources */,
 				C69955312982C68200AFD68F /* NewWorkout.swift in Sources */,
 				C69955332982C9AE00AFD68F /* WorkoutCardSmall.swift in Sources */,
+				C6C52A262989FD70004F0F3F /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
