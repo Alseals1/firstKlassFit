@@ -1,10 +1,3 @@
-//
-//  StatisticsView.swift
-//  FirstKlassFit
-//
-//  Created by Alandis Seals on 1/26/23.
-//
-
 import SwiftUI
 
 struct StatisticsView: View {

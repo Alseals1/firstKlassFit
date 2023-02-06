@@ -13,7 +13,7 @@ struct NewWorkout: View {
             HStack {
                 Text("New Workouts")
                     .font(.system(size: 17))
-                .foregroundColor(.white)
+                    .padding(.horizontal, 20)
                 Spacer()
             }
                

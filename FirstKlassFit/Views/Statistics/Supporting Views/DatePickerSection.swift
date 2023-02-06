@@ -1,10 +1,3 @@
-//
-//  DatePickerSection.swift
-//  FirstKlassFit
-//
-//  Created by Alandis Seals on 2/6/23.
-//
-
 import SwiftUI
 
 struct DatePickerSection: View {
@@ -12,21 +5,43 @@ struct DatePickerSection: View {
         VStack {
             VStack {
                 HStack {
-                    SmallArrowButton(image: "chevron.left") {
-                // MARK: - Calender Action Goes Here
-                    }
+                    Button(action: {
+                       
+                    }, label: {
+                        ZStack {
+                            Image(systemName: "chevron.left")
+                                .foregroundColor(.white)
+                        }
+                        .padding(10)
+                        .background(Color.baseTabBackground)
+                        .clipShape(Circle())
+                    })
                     Spacer()
                     Text("January")
                     Spacer()
-                    SmallArrowButton(image: "chevron.right") {
-                        // MARK: - Calender Action Goes Here
-                    }
+                    Button(action: {
+                       
+                    }, label: {
+                        ZStack {
+                            Image(systemName: "chevron.right")
+                                .foregroundColor(.white)
+                        }
+                        .padding(10)
+                        .background(Color.baseTabBackground)
+                        .clipShape(Circle())
+                    })
                 }
                 .padding(.bottom, 29)
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack {
                         ForEach(1...31, id: \.self) { day in
-                            DatePill(day: "M", date: "26", color: .baseTabBackground)
+                            VStack {
+                                Text("M")
+                                Text("19")
+                            }
+                            .padding()
+                            .background(Color.baseTabBackground)
+                            .clipShape(Capsule())
                         }
                     }
                 }
@@ -36,8 +51,6 @@ struct DatePickerSection: View {
         }
         .edgesIgnoringSafeArea(.top)
     .frame(height: 203)
-    
-        
     }
 }
 

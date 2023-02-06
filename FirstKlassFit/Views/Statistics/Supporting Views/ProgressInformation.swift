@@ -1,3 +1,10 @@
+//
+//  ProgressInformation.swift
+//  FirstKlassFit
+//
+//  Created by Alandis Seals on 2/6/23.
+//
+
 import SwiftUI
 
 struct ProgressInformation: View {

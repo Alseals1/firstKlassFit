@@ -9,7 +9,6 @@ struct WorkoutCategorySection: View {
             VStack {
                 HStack {
                     Text("Workout Categories")
-                        .foregroundColor(.baseWhiteText)
                         .font(.system(size: 17))
                     Spacer()
                     Text("See All")

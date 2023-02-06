@@ -17,7 +17,6 @@ struct ProgressCircle: View {
             Circle()
                 .stroke(lineWidth: 5)
                 .fill(Gradient(colors: [.darkPurple, .lightPurple]))
-      
             
             VStack(spacing: 10){
                 Text(statsDescription)
@@ -30,8 +29,6 @@ struct ProgressCircle: View {
                     Text(statAcronym ?? "")
                         .font(.system(size: 13))
                 }
-                
-             
             }
             .padding()
         }

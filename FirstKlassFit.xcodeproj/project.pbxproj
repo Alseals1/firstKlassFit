@@ -21,8 +21,6 @@
 		C69955312982C68200AFD68F /* NewWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955302982C68100AFD68F /* NewWorkout.swift */; };
 		C69955332982C9AE00AFD68F /* WorkoutCardSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955322982C9AE00AFD68F /* WorkoutCardSmall.swift */; };
 		C69955352982D0D700AFD68F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955342982D0D700AFD68F /* MainView.swift */; };
-		C69955372982D15900AFD68F /* DatePill.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955362982D15900AFD68F /* DatePill.swift */; };
-		C69955392982D2A300AFD68F /* SmallArrowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955382982D2A300AFD68F /* SmallArrowButton.swift */; };
 		C6C52A262989FD70004F0F3F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C52A252989FD70004F0F3F /* NotificationView.swift */; };
 		C6C52A29298A080C004F0F3F /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C52A28298A080C004F0F3F /* Notification.swift */; };
 		C6E85DFD29831D08002C984A /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E85DFC29831D08002C984A /* ProgressCircle.swift */; };
@@ -47,8 +45,6 @@
 		C69955302982C68100AFD68F /* NewWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkout.swift; sourceTree = "<group>"; };
 		C69955322982C9AE00AFD68F /* WorkoutCardSmall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCardSmall.swift; sourceTree = "<group>"; };
 		C69955342982D0D700AFD68F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		C69955362982D15900AFD68F /* DatePill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePill.swift; sourceTree = "<group>"; };
-		C69955382982D2A300AFD68F /* SmallArrowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallArrowButton.swift; sourceTree = "<group>"; };
 		C6C52A252989FD70004F0F3F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		C6C52A28298A080C004F0F3F /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		C6E85DFC29831D08002C984A /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
@@ -169,8 +165,6 @@
 		C699552D2982BFB100AFD68F /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				C69955362982D15900AFD68F /* DatePill.swift */,
-				C69955382982D2A300AFD68F /* SmallArrowButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -289,9 +283,7 @@
 				C6E85DFD29831D08002C984A /* ProgressCircle.swift in Sources */,
 				C6EE68C02982EE5800DE22E3 /* RoundedCorner.swift in Sources */,
 				C69955182981F62F00AFD68F /* ContentView.swift in Sources */,
-				C69955372982D15900AFD68F /* DatePill.swift in Sources */,
 				C60F1747298971C200F7D0B7 /* UserProfileView.swift in Sources */,
-				C69955392982D2A300AFD68F /* SmallArrowButton.swift in Sources */,
 				C6C52A29298A080C004F0F3F /* Notification.swift in Sources */,
 				C69955162981F62F00AFD68F /* FirstKlassFitApp.swift in Sources */,
 				C699552629822E9B00AFD68F /* Color+Extension.swift in Sources */,
