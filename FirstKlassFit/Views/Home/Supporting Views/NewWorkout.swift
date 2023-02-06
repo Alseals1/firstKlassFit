@@ -14,19 +14,18 @@ struct NewWorkout: View {
                 Text("New Workouts")
                     .font(.system(size: 17))
                 .foregroundColor(.white)
-                
                 Spacer()
             }
                
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 20) {
                     ForEach(1...5, id: \.self) { workout in
-                        WorkoutCardSmall(workout: "Warm Up", workoutInfo: "01 Workout", image: "Image3")
-                        
+                        WorkoutCardSmall()
                     }
                     .cornerRadius(16)
                 .frame(height: 205)
                 }
+                .padding(.horizontal, 20)
             }
         }
         

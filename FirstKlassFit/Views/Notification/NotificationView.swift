@@ -1,67 +1,47 @@
 import SwiftUI
-enum NotificationTabs: String {
-    case new = "New"
-    case events = "Events"
-    case all = "All"
-}
+
 struct NotificationView: View {
-    
-    var body: some View {
-        NotificationTabView(tabs: [.new, .events, .all])
-    }
-}
+    @State var currentTab: String = "Events"
+    var tabs = ["New", "Events", "All"]
 
-struct NotificationTabView: View {
-    @State var currentTab: NotificationTabs = .all
-    var tabs: [NotificationTabs]
-
-    var body: some View {
-        ZStack {
-            Color.baseBackground
-                .ignoresSafeArea()
-            VStack {
-                Text("Notifications")
-                    .font(.system(size: 20))
-                    .foregroundColor(.white)
-                HStack {
-                    ForEach(tabs, id: \.self) { tab in
-                        Button(action: {
-                            currentTab = tab
-                        }, label: {
-                            ZStack {
-                                tab == currentTab ? Color.basePurple : .clear
-                                
-                                Text(tab.rawValue)
-                                    .font(.system(size: 13))
-                                    .foregroundColor(.white)
-                            }
-                            .clipShape(Capsule())
-                        })
-                        .frame(height: 28)
-                        
+        var body: some View {
+            ZStack {
+                Color.baseBackground
+                    .ignoresSafeArea()
+                VStack {
+                    Text("Notifications")
+                        .font(.system(size: 20))
+                        .foregroundColor(.white)
+                    HStack {
+                        ForEach(tabs, id: \.self) { tab in
+                            Button(action: {
+                                currentTab = tab
+                            }, label: {
+                                ZStack {
+                                    tab == currentTab ? Color.basePurple : .clear
+                                    
+                                    Text(tab)
+                                        .font(.system(size: 13))
+                                        .foregroundColor(.white)
+                                }
+                                .clipShape(Capsule())
+                            })
+                            .frame(height: 28)
+                        }
                     }
+                    .background(Color.baseTabBackground)
+                    .clipShape(Capsule())
+                .frame(height: 28)
+                .padding(.bottom, 32)
+                    
+                 listofNotification
+                    Spacer()
                 }
-                .background(Color.baseTabBackground)
-                .clipShape(Capsule())
-            .frame(height: 28)
-            .padding(.bottom, 32)
-                
-                switch currentTab {
-                    case .new:
-                        listofNotification
-                    case .events:
-                        listofNotification
-                    case .all:
-                        listofNotification
-                }
-                
-                Spacer()
+                .padding(.horizontal, 24)
+                .padding(.top, 50)
             }
-            .padding(.horizontal, 24)
-            .padding(.top, 50)
         }
     }
-    
     var listofNotification: some View {
         List {
             ForEach(notificationData) { notification in
@@ -88,7 +68,7 @@ struct NotificationTabView: View {
         .listStyle(PlainListStyle())
         
     }
-}
+
 
 struct NotificationView_Previews: PreviewProvider {
     static var previews: some View {

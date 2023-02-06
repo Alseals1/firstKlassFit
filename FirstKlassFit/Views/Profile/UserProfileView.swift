@@ -8,21 +8,19 @@
 import SwiftUI
 
 struct UserProfileView: View {
-    var text = ["Edit Profile", "Privacy Policy", "Setting", "Sign Out"]
+    var textData = ["Edit Profile", "Privacy Policy", "Setting", "Sign Out"]
     
     var body: some View {
-        ZStack {
-            Color.baseBackground
-                .ignoresSafeArea()
+        
             VStack(alignment: .leading, spacing: 5) {
-                profileHeader
-                profileSettingList
+                profileHeaderSection
+                profileSettingListSection
                 
             }
             .padding(.horizontal, 28)
-        }
+        
     }
-    var profileHeader: some View {
+    var profileHeaderSection: some View {
         VStack(alignment: .leading, spacing: 5) {
             HStack(spacing: 65) {
                 ZStack {
@@ -61,21 +59,19 @@ struct UserProfileView: View {
         }
         .padding(.vertical, 36)
     }
-    var profileSettingList: some View {
+    var profileSettingListSection: some View {
         List {
-            ForEach(text, id: \.self) { edit in
+            ForEach(textData, id: \.self) { text in
               Button(action: {
               }, label: {
                   HStack {
-                      Text(edit)
+                      Text(text)
                           .padding(.vertical)
                       Spacer()
                       Image(systemName: "chevron.right")
                   }
               })
-                .foregroundColor(.white)
             }
-            .listRowBackground(Color.baseBackground)
         }
         .listStyle(PlainListStyle())
     }
