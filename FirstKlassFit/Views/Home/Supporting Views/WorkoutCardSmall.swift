@@ -21,7 +21,7 @@ struct WorkoutCardSmall: View {
             .padding([.bottom,.leading], 16)
         }
         .cornerRadius(16)
-    .frame(height: 205)
+        .frame(height: 205)
     }
 }
 

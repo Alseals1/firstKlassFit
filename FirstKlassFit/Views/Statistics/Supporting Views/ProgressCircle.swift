@@ -1,17 +1,6 @@
-//
-//  ProgressCircle.swift
-//  FirstKlassFit
-//
-//  Created by Alandis Seals on 1/26/23.
-//
-
 import SwiftUI
 
 struct ProgressCircle: View {
-    let statsDescription: String
-    let stat: String
-    let statAcronym: String?
-    
     var body: some View {
         ZStack {
             Circle()
@@ -19,25 +8,24 @@ struct ProgressCircle: View {
                 .fill(Gradient(colors: [.darkPurple, .lightPurple]))
             
             VStack(spacing: 10){
-                Text(statsDescription)
+                Text("Steps")
                     .font(.system(size: 13))
-                    .foregroundColor(Color.baseGreyText)
+                    .foregroundColor(.baseGreyText)
                 
                 HStack(spacing: 3) {
-                    Text(stat)
+                    Text("6540")
                         .font(.system(size: 22))
-                    Text(statAcronym ?? "")
+                    Text("min")
                         .font(.system(size: 13))
                 }
             }
-            .padding()
         }
-        .frame(height: 100)
+        .frame(height: 110)
     }
 }
 
 struct ProgressCircle_Previews: PreviewProvider {
     static var previews: some View {
-        ProgressCircle(statsDescription: "Steps", stat: "6540", statAcronym: "min")
+        ProgressCircle()
     }
 }

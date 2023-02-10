@@ -10,4 +10,5 @@ extension Color {
     static var baseWhiteText = Color("baseWhiteText")
     static var darkPurple = Color("darkPurple")
     static var lightPurple = Color("lightPurple")
+    static var blackWhiteTextColor = Color("blackWhiteTextColor")
 }

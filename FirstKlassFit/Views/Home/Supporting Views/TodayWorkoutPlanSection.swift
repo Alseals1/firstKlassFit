@@ -6,6 +6,7 @@ struct TodayWorkoutPlanSection: View {
             HStack{
                 Text("Today Workout Plan")
                     .font(.system(size: 17))
+                    .foregroundColor(.primary)
                 Spacer()
                 Text("Mon 26 Apr")
                     .font(.system(size: 13))

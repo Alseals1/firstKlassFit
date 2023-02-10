@@ -2,30 +2,25 @@ import SwiftUI
 
 struct StatisticsView: View {
     var body: some View {
-        ZStack {
-            Color.baseBackground
-                .ignoresSafeArea()
-            ScrollView(.vertical, showsIndicators: false) {
-                VStack {
-                    DatePickerSection()
-                }
-                
-                VStack(spacing: 30) {
-                    ProgressInformation()
-                    
-                    VStack(alignment: .leading){
-                        Text("Finished Workout")
-                            .font(.system(size: 17))
-                        ForEach(1...5, id: \.self) { _  in
-                            FinishedWorkout()
-                        }
-                    }
-                    .padding(.horizontal, 24)
-                }
+        ScrollView(.vertical, showsIndicators: false) {
+            VStack {
+                DatePickerSection()
             }
-            .foregroundColor(.white)
+            
+            VStack(spacing: 30) {
+                ProgressInformation()
+                
+                VStack(alignment: .leading){
+                    Text("Finished Workout")
+                        .font(.system(size: 17))
+                    
+                    ForEach(0..<5) { item in
+                        FinishedWorkout()
+                    }
+                }
+                .padding(.horizontal, 24)
+            }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 

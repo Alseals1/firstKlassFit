@@ -11,6 +11,7 @@
 		C633B52F29915376003A529E /* TodayWorkoutPlanSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C633B52E29915376003A529E /* TodayWorkoutPlanSection.swift */; };
 		C633B532299154E7003A529E /* DatePickerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C633B531299154E7003A529E /* DatePickerSection.swift */; };
 		C633B53429915562003A529E /* ProgressInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C633B53329915562003A529E /* ProgressInformation.swift */; };
+		C633B53D2992D16D003A529E /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = C633B53C2992D16D003A529E /* Users.swift */; };
 		C69955162981F62F00AFD68F /* FirstKlassFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955152981F62F00AFD68F /* FirstKlassFitApp.swift */; };
 		C69955182981F62F00AFD68F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955172981F62F00AFD68F /* ContentView.swift */; };
 		C699551A2981F63100AFD68F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C69955192981F63100AFD68F /* Assets.xcassets */; };
@@ -21,6 +22,12 @@
 		C69955312982C68200AFD68F /* NewWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955302982C68100AFD68F /* NewWorkout.swift */; };
 		C69955332982C9AE00AFD68F /* WorkoutCardSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955322982C9AE00AFD68F /* WorkoutCardSmall.swift */; };
 		C69955352982D0D700AFD68F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69955342982D0D700AFD68F /* MainView.swift */; };
+		C6BE2BF82994072700ABE0CC /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE2BF72994072700ABE0CC /* Bundle+Extension.swift */; };
+		C6BE2BFA299407B500ABE0CC /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE2BF9299407B500ABE0CC /* Workout.swift */; };
+		C6BE2BFC299407F000ABE0CC /* DemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE2BFB299407F000ABE0CC /* DemoData.swift */; };
+		C6BE2BFE29942A0A00ABE0CC /* WorkoutCategorySectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE2BFD29942A0A00ABE0CC /* WorkoutCategorySectionItem.swift */; };
+		C6BE2C012995F95700ABE0CC /* ProfileHeaderSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE2C002995F95700ABE0CC /* ProfileHeaderSection.swift */; };
+		C6BE2C032995F9A100ABE0CC /* ProfileSettingListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE2C022995F9A100ABE0CC /* ProfileSettingListSection.swift */; };
 		C6C52A262989FD70004F0F3F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C52A252989FD70004F0F3F /* NotificationView.swift */; };
 		C6C52A29298A080C004F0F3F /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C52A28298A080C004F0F3F /* Notification.swift */; };
 		C6E85DFD29831D08002C984A /* ProgressCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E85DFC29831D08002C984A /* ProgressCircle.swift */; };
@@ -34,6 +41,7 @@
 		C633B52E29915376003A529E /* TodayWorkoutPlanSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWorkoutPlanSection.swift; sourceTree = "<group>"; };
 		C633B531299154E7003A529E /* DatePickerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerSection.swift; sourceTree = "<group>"; };
 		C633B53329915562003A529E /* ProgressInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressInformation.swift; sourceTree = "<group>"; };
+		C633B53C2992D16D003A529E /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		C69955122981F62F00AFD68F /* FirstKlassFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstKlassFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C69955152981F62F00AFD68F /* FirstKlassFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstKlassFitApp.swift; sourceTree = "<group>"; };
 		C69955172981F62F00AFD68F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +53,12 @@
 		C69955302982C68100AFD68F /* NewWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkout.swift; sourceTree = "<group>"; };
 		C69955322982C9AE00AFD68F /* WorkoutCardSmall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCardSmall.swift; sourceTree = "<group>"; };
 		C69955342982D0D700AFD68F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C6BE2BF72994072700ABE0CC /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		C6BE2BF9299407B500ABE0CC /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		C6BE2BFB299407F000ABE0CC /* DemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoData.swift; sourceTree = "<group>"; };
+		C6BE2BFD29942A0A00ABE0CC /* WorkoutCategorySectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCategorySectionItem.swift; sourceTree = "<group>"; };
+		C6BE2C002995F95700ABE0CC /* ProfileHeaderSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderSection.swift; sourceTree = "<group>"; };
+		C6BE2C022995F9A100ABE0CC /* ProfileSettingListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingListSection.swift; sourceTree = "<group>"; };
 		C6C52A252989FD70004F0F3F /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		C6C52A28298A080C004F0F3F /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		C6E85DFC29831D08002C984A /* ProgressCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircle.swift; sourceTree = "<group>"; };
@@ -67,6 +81,7 @@
 		C60F1745298971A600F7D0B7 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				C6BE2BFF2995F92800ABE0CC /* SupportingView */,
 				C60F1746298971C200F7D0B7 /* UserProfileView.swift */,
 			);
 			path = Profile;
@@ -75,6 +90,8 @@
 		C60F174A2989F89800F7D0B7 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				C69955152981F62F00AFD68F /* FirstKlassFitApp.swift */,
+				C69955172981F62F00AFD68F /* ContentView.swift */,
 				C69955342982D0D700AFD68F /* MainView.swift */,
 			);
 			path = App;
@@ -98,6 +115,7 @@
 				C69955302982C68100AFD68F /* NewWorkout.swift */,
 				C69955292982446B00AFD68F /* WorkoutCategorySection.swift */,
 				C633B52E29915376003A529E /* TodayWorkoutPlanSection.swift */,
+				C6BE2BFD29942A0A00ABE0CC /* WorkoutCategorySectionItem.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -123,11 +141,8 @@
 			children = (
 				C6C52A27298A07F7004F0F3F /* Model */,
 				C60F174A2989F89800F7D0B7 /* App */,
-				C699552D2982BFB100AFD68F /* Components */,
 				C699552C2982BFA200AFD68F /* Utils */,
 				C699552B2982BF8F00AFD68F /* Views */,
-				C69955152981F62F00AFD68F /* FirstKlassFitApp.swift */,
-				C69955192981F63100AFD68F /* Assets.xcassets */,
 				C699551B2981F63100AFD68F /* Preview Content */,
 			);
 			path = FirstKlassFit;
@@ -148,7 +163,6 @@
 				C6EE68B92982ECA700DE22E3 /* Home */,
 				C6EE68BA2982ECCA00DE22E3 /* Statistics */,
 				C6C52A242989FD55004F0F3F /* Notification */,
-				C69955172981F62F00AFD68F /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,17 +170,29 @@
 		C699552C2982BFA200AFD68F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				C699552529822E9B00AFD68F /* Color+Extension.swift */,
+				C6BE2BF6299406ED00ABE0CC /* Extension */,
+				C69955192981F63100AFD68F /* Assets.xcassets */,
 				C6EE68BF2982EE5800DE22E3 /* RoundedCorner.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		C699552D2982BFB100AFD68F /* Components */ = {
+		C6BE2BF6299406ED00ABE0CC /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C699552529822E9B00AFD68F /* Color+Extension.swift */,
+				C6BE2BF72994072700ABE0CC /* Bundle+Extension.swift */,
 			);
-			path = Components;
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C6BE2BFF2995F92800ABE0CC /* SupportingView */ = {
+			isa = PBXGroup;
+			children = (
+				C6BE2C002995F95700ABE0CC /* ProfileHeaderSection.swift */,
+				C6BE2C022995F9A100ABE0CC /* ProfileSettingListSection.swift */,
+			);
+			path = SupportingView;
 			sourceTree = "<group>";
 		};
 		C6C52A242989FD55004F0F3F /* Notification */ = {
@@ -180,6 +206,9 @@
 		C6C52A27298A07F7004F0F3F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C6BE2BFB299407F000ABE0CC /* DemoData.swift */,
+				C633B53C2992D16D003A529E /* Users.swift */,
+				C6BE2BF9299407B500ABE0CC /* Workout.swift */,
 				C6C52A28298A080C004F0F3F /* Notification.swift */,
 			);
 			path = Model;
@@ -275,15 +304,22 @@
 			files = (
 				C633B52F29915376003A529E /* TodayWorkoutPlanSection.swift in Sources */,
 				C6E85DFF29834982002C984A /* FinishedWorkout.swift in Sources */,
+				C6BE2C032995F9A100ABE0CC /* ProfileSettingListSection.swift in Sources */,
+				C6BE2BFA299407B500ABE0CC /* Workout.swift in Sources */,
 				C69955242981F93100AFD68F /* HomeView.swift in Sources */,
+				C6BE2C012995F95700ABE0CC /* ProfileHeaderSection.swift in Sources */,
 				C633B53429915562003A529E /* ProgressInformation.swift in Sources */,
+				C6BE2BFE29942A0A00ABE0CC /* WorkoutCategorySectionItem.swift in Sources */,
 				C6EE68BC2982ECF300DE22E3 /* StatisticsView.swift in Sources */,
+				C633B53D2992D16D003A529E /* Users.swift in Sources */,
 				C69955352982D0D700AFD68F /* MainView.swift in Sources */,
 				C699552A2982446B00AFD68F /* WorkoutCategorySection.swift in Sources */,
 				C6E85DFD29831D08002C984A /* ProgressCircle.swift in Sources */,
 				C6EE68C02982EE5800DE22E3 /* RoundedCorner.swift in Sources */,
 				C69955182981F62F00AFD68F /* ContentView.swift in Sources */,
+				C6BE2BF82994072700ABE0CC /* Bundle+Extension.swift in Sources */,
 				C60F1747298971C200F7D0B7 /* UserProfileView.swift in Sources */,
+				C6BE2BFC299407F000ABE0CC /* DemoData.swift in Sources */,
 				C6C52A29298A080C004F0F3F /* Notification.swift in Sources */,
 				C69955162981F62F00AFD68F /* FirstKlassFitApp.swift in Sources */,
 				C699552629822E9B00AFD68F /* Color+Extension.swift in Sources */,
@@ -424,8 +460,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,8 +488,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

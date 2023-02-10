@@ -46,26 +46,8 @@ struct WorkoutCategorySection: View {
     var workout: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 20) {
-                ForEach(1...5, id: \.self) { image in
-                    HStack {
-                        ZStack(alignment: .bottomLeading) {
-                            Image("Image2")
-                                .resizable()
-                                .frame(height: 160)
-                            VStack(alignment: .leading, spacing: 5) {
-                                Text("Learn the Basic of Training")
-                                    .foregroundColor(.white)
-                                HStack(spacing: 5) {
-                                    Rectangle()
-                                        .fill(Color.basePurple)
-                                        .frame(width: 3, height: 15)
-                                    Text("06 Workouts  for Beginner")
-                                        .foregroundColor(.baseGreyText)
-                                }
-                            }
-                            .padding([.bottom,.leading], 16)
-                        }
-                    }
+                ForEach(0..<3) { item in
+                    WorkoutCategorySectionItem()
                 }
             }
             .padding(.leading, 24)
@@ -75,10 +57,6 @@ struct WorkoutCategorySection: View {
 
 struct WorkoutCategoryTabView_Previews: PreviewProvider {
     static var previews: some View {
-        ZStack {
-            Color.baseBackground
-                .ignoresSafeArea()
-            WorkoutCategorySection(tabs: ["Beginner", "Intermediate", "Advanced"])
-        }
+            WorkoutCategorySection()
     }
 }

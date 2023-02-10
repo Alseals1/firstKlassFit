@@ -1,10 +1,3 @@
-//
-//  MainView.swift
-//  FirstKlassFit
-//
-//  Created by Alandis Seals on 1/26/23.
-//
-
 import SwiftUI
 
 struct MainView: View {
@@ -15,8 +8,6 @@ struct MainView: View {
                     Label("Home", systemImage: "house")
                     Text("Home")
                 }
-                
-                
             
             StatisticsView()
                 .tabItem {
@@ -30,7 +21,7 @@ struct MainView: View {
             
             UserProfileView()
                 .tabItem {
-                   Label("Profile", systemImage: "person.fill")
+                    Label("Profile", systemImage: "person.fill")
                 }
         }
         .tint(.basePurple)
